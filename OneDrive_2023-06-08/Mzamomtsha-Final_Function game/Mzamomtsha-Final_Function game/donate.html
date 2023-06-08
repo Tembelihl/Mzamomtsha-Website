@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="boostrap" href="bootstrap.bundle.min.js">
+   <link rel="about" href="About.html">
+   <link rel="events" href="Events.html">
+   <link rel="contact" href="Contact.html">
+   <link rel="Apply" href="Apply.html">
+   <link rel="faq" href="faq.html">
+   <link rel="faq" href="Bio.html">
+   <link rel="icon" type="image/x-icon" href="PICTURES/favicon.png">
+   <link rel="stylesheet" href="styles.css" />
+    <title>Donation page</title>
+    
+</head>
+<body>
+    <nav class="navbar navbar-toggleable-md ">
+        <div class="container d-flex justify-content-around "> 
+        <div id="logo"> <img src="Pictures/logo.png" alt="The Logo"></div>
+  
+        <button class="navbar-toggler " data-toggle="collapse" data-target="#mainNav" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          
+            <div class="navbar-nav"> 
+              <div class="collapse navbar-collapse " id="mainNav">
+                <ul>
+                  <li ><a class="nav-item nav-link active" href="index.html">Home</a></li>
+                  <li ><a  class="nav-item nav-link" href="About.html">About Us</a></li>
+                  <li><a class="nav-item nav-link" href="Events.html">Events</a></li>
+                  <li><a class="nav-item nav-link" href="Contact.html">Contact</a></li>
+                  <li><a class="nav-item nav-link" onclick="openWindow()" >Apply</a></li>
+                  <li><a class="nav-item nav-link" href="faq.html"> FAQ </a></li> 
+                  <li ><a class="nav-item nav-link" href="Bio.html"> Team </a></li>
+                  <li id="colorChange" onclick="myFunction()"  onmouseover="mouseOver()" onmouseout="mouseOut()"><a class="nav-item nav-link" href="donate.html"> Donate </a></li>
+                  
+            </ul>     
+          </div>       
+          </div>      
+        </div>
+  </nav> 
+    
+  <script>
+
+    function openWindow() {
+              window.open('Apply.html', 'nav-item nav-link', 'width=500,height=600');
+            }
+    
+    
+    function myFunction() {
+            document.getElementById("colorChange").style.backgroundColor="green";
+      
+          }
+    
+          function mouseOut() {
+            document.getElementById("colorChange").style.backgroundColor="burlywood";
+      
+          }
+          function mouseOver() {
+            document.getElementById("colorChange").style.backgroundColor="#d28140";
+      
+          }
+           </script>
+
+<section id="donate" style="background-color: rgb(12,60,100)" >
+        <div class="donate-1">
+             <h1> PLEASE DONATE TO OUR SCHOOL</h1><br>
+             <p> We call on business people to come on board and donate to the school.
+              <br>Driftsands has been forgotten and there is only one school in the area which is overcrowded,
+              the school is meant to accommodate less than 500 learners, but it has 770 learners from Grade R to Grade 9.
+             We perceive education as an investment, not only to the learners, but to the community at large.
+             </p>
+        </div>
+        
+              <div class="content-box-lg">
+                <div class="container">
+
+                      <div class="donate-item">                          
+                            
+                            
+                            <iframe width="560" height="500" src="https://www.youtube.com/embed/Fn2rbn5X1-w?start=35" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          
+                                </div>
+ 
+                            <div class="donate-item">
+                        
+                            
+                            <iframe src="https://forms.monday.com/forms/embed/02ac960158f41a1e62845664ac02dd62?r=euc1" width="650" height="500" style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
+               
+                </div>
+              </div>
+            </div>
+</section>
+    <footer>
+
+        <div class="social" >
+          </div>
+          <div id="copyright">
+            <a href="#"><i class="fa fa-facebook" style="font-size:35px; color:rgb(12,60,100);"></i></a>
+            <a href="#"><i class="fa fa-twitter" style="font-size:35px; color:rgb(12,60,100);"></i></a>
+            <a href="#"><i class="fa fa-linkedin" style="font-size:35px; color:rgb(12,60,100);"></i></a>
+      
+            <p>
+            @ 2007-2023 Copyright MZAMOMTSHA PRIMARY SCHOOL. All Rights Reserved.
+          </p>
+        
+        </div>
+      </footer>   
+</body>
+</html>
